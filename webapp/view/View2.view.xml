@@ -11,7 +11,7 @@
 				<content>
 				    <form:SimpleForm>
                         <form:content>
-                            <Label text="{i18n>last_name} éé"></Label>
+                            <Label text="{i18n>last_name}"></Label>
                             <Text text="{last_name}"></Text>
                             <Label text="{i18n>first_name}"></Label>
                             <Text text="{first_name}"></Text>
