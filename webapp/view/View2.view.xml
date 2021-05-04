@@ -1,0 +1,30 @@
+<mvc:View xmlns:form="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ecole1.controller.View2" displayBlock="true" >
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}" showNavButton="true" navButtonPress=".onNavBack">
+                    <headerContent>
+                    <Button
+                            icon="sap-icon://hello-world"
+                            press="onOpenDialog"/>
+                </headerContent>
+				<content>
+				    <form:SimpleForm>
+                        <form:content>
+                            <Label text="{i18n>last_name} éé"></Label>
+                            <Text text="{last_name}"></Text>
+                            <Label text="{i18n>first_name}"></Label>
+                            <Text text="{first_name}"></Text>
+                            <Label text="{i18n>email}"></Label>
+                            <Text text="{email}"></Text>
+                            <Label text="{i18n>phone}"></Label>
+                            <Text text="{phone}"></Text>
+                        </form:content>
+
+                    </form:SimpleForm>   
+				</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

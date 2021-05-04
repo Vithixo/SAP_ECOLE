@@ -1,0 +1,24 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ecole1.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}" >
+                <headerContent>
+                    <Button
+                            icon="sap-icon://hello-world"
+                            press="onOpenDialog"/>
+                </headerContent>
+				<content>
+				    <List noDataText="Drop list items here" id="list0" items="{/ZSB_DDL_STUDENT}">
+				    <items>
+				        <ObjectListItem type="Navigation" title="{first_name} {last_name}" number="100" numberUnit="eur" intro="{email}" press="onPress">
+                        </ObjectListItem>
+				    </items>
+				    </List>
+                    
+				</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

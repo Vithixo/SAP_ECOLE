@@ -1,0 +1,23 @@
+[
+  {
+	"id": 1,
+    "last_name": "Bertin",
+    "first_name": "Samuel",
+    "email": "samuel.bertin@orange.fr",
+    "phone": "0769272763"
+  },
+  {
+	"id": 2,
+    "last_name": "Panchout",
+    "first_name": "Sebastien",
+    "email": "sebastien.panchout@dachser.com",
+    "phone": "0789541236"
+  },
+  {
+	"id": 3,
+    "last_name": "Charron",
+    "first_name": "Anatole",
+    "email": "anatole.charron@dachser.com",
+    "phone": "0712435689"
+  }
+]

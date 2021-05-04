@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ecole1.controller.View3" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                    <Button text="View1" press="onPress1"/>
+                    <Button text="View2" press="onPress2"/>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
